@@ -1,7 +1,7 @@
 /*
 **
-** The output table temperature Fahrenheit and Celsius with float
-** for fahr = 0, 20, ..., 300.
+** Modify the temperature conversion program to print a heading above the table.
+**
 **
 */
 #include <stdio.h>
