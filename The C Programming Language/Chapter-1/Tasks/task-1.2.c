@@ -9,7 +9,7 @@
 int main()
 {
 
-  // Error: uknown escape sequence: '\d'
+  // Error: unknown escape sequence: '\d'
   printf("hello, world\d");
 
   return 0;
