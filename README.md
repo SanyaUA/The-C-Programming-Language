@@ -8,5 +8,7 @@ The C Programming Language (more commonly known as K&amp;R) is a computer progra
     <b>Contents</b><br>
 </p>
 <p>
-    <a href="#"><b>0</b>. Preface</a>
+    <b>0</b>. Preface</a><br>
+    <b>1</b>. Preface to the First Edition<br>
+    <b>2</b>. Introduction<br>
 </p>
