@@ -20,11 +20,13 @@ int main()
 
   max = 0;
   while((len = getlines(line, MAXLINE)) > 0)
+  {
       if (len > max)
       {
 	 max = len;
 	 copy(longest, line);
       }
+  }
   if (max > 0) 
      printf("%s", longest);
   return 0;
@@ -46,7 +48,7 @@ int getlines(char s[], int lim)
   }
   s[i] = '\0';
 
-  return 0;
+  return i;
 }
 /*
 **
