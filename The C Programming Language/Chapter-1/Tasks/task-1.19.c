@@ -16,23 +16,7 @@ int main()
   
   char line[MAXLINE];
 
-  while((len = getlines(line, MAXLINE)) > 0)
-  {
-    reverse(line, len);
-    printf("%s\n", line);
-  }
-  return 0;
-}
-void reverse(char line[], int length)
-{
-  int tmp;
-  for (int i = 0; i <= length / 2; ++i)
-  {
-    tmp = line[i];
-    line[i] = line[length - i - 1];
-    line[length - i - 1]  = tmp;
-  }
-}
+  
 /*
 ** 
 ** Read a line into s, return length.
