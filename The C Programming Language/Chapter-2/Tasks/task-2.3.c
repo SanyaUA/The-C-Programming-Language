@@ -5,6 +5,7 @@
 **
 */
 #include <stdio.h>
+#include <ctype.h>
 
 long long htoi(char s[], int n);
 
@@ -33,11 +34,11 @@ long long htoi(char s[], int n)
   if (s[0] == '0' && (s[1] == 'x' || s[1] == 'X'))
     start_index = 2; 
  
-  for (int i = start_index; i < n && (s[i] >= '0' && s[i] <= '9') || (s[i] >= 'A' && s[i] <= 'F') || (s[i] >= 'a' && s[i] <= 'f'); ++i)
+  for (int i = start_index; i < n && isdigit(s[i]) || (s[i] >= 'A' && s[i] <= 'F') || (s[i] >= 'a' && s[i] <= 'f'); ++i)
   {
-    if (s[i] >= '0' && s[i] <= '9')
+    if (isdigit(s[i]))
       res = res * 16 + (s[i] - '0');
-    else if (s[i] >= 'A' && s[i] <= 'F')
+    else if (isupper(s[i]))
       res = res * 16 + (s[i] - 'A' + 10);
     else 
       res = res * 16 + (s[i] - 'a' + 10);
