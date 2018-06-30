@@ -7,6 +7,6 @@
 
 int lower(int symbol)
 {
-  return symbol = (symbol >= 'A' && symbol <= 'Z') ? symbol : symbol ^ ' ';
+  return symbol = (symbol >= 'A' && symbol <= 'Z') ? symbol ' ' : symbol;
 }
 
