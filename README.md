@@ -7,7 +7,7 @@ The C Programming Language (more commonly known as K&amp;R) is a computer progra
     <b>Contents</b><br>
 </p>
 <p>
-    <b></b> Preface</a><br>
+    <b> Preface</b></a><br>
     <b></b> Preface to the First Edition<br>
     <b></b> Introduction<br>
     <b>[!]Trick about letter cases</b><br>For the converting letter from lower case to upper and back, enough to perform the operation XOR(^ in C) with a white-space character(Hex(<b>20</b>), Decimal(<b>32</b>), Octal(<b>40</b>)).</p>
