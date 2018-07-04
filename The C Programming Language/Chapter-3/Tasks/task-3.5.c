@@ -3,6 +3,11 @@
 ** Converts integer to string.
 **
 */
+/*
+**
+** Converts the integer n into a base n character representation.
+**
+*/
 #include <stdio.h>
 #include <string.h>
 
